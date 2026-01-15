@@ -11,7 +11,7 @@ module sca::sca {
   use sui::math;
   use sui::object::{Self, UID};
 
-  use x_supply::x_supply::{Self, XSupply, XSupplyCap};
+  use sca::x_supply::{Self, XSupply, XSupplyCap};
 
   const EHardCapExceeded: u64 = 503;
 

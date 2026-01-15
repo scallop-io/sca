@@ -3,7 +3,7 @@
 // to manage the supply of a single token. This is useful for tokens to be issued by different
 // entities, but still be able to be used interchangeably.
 #[allow(unused_const, unused_type_parameter, unused_field, unused_use)]
-module x_supply::x_supply {
+module sca::x_supply {
   use std::type_name::{Self, TypeName};
   use sui::balance::{Self, Supply, Balance};
   use sui::object::{Self, UID, ID};
